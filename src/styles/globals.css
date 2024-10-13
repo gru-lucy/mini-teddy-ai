@@ -1,0 +1,110 @@
+@import url("./tailwind.css");
+@import url("./typography.css");
+@import url("./variables.css");
+
+body,
+#root {
+  @apply bg-background-100 flex min-h-screen flex-col;
+}
+
+*::-webkit-scrollbar {
+  @apply w-1.5 h-1.5;
+}
+
+*::-webkit-scrollbar-track {
+  @apply bg-background-100 rounded-xl;
+}
+
+*::-webkit-scrollbar-thumb {
+  @apply rounded-lg bg-scrollbar-thumb;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  @apply bg-scrollbar-thumb-hover;
+}
+
+*::selection {
+  @apply text-selection-color bg-selection-background;
+}
+
+/* Markdown formatted content */
+.content ul {
+  @apply list-disc pl-7 py-3;
+}
+
+.content ol {
+  @apply list-decimal pl-8 py-3;
+}
+
+.content a {
+  @apply text-blue-200 underline hover:no-underline;
+}
+
+.content p {
+  @apply pt-2;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  @apply pt-3;
+}
+
+.content img {
+  @apply w-full py-2;
+}
+
+.content pre {
+  @apply bg-syntax-background -mx-5 py-3 px-5 mt-2;
+}
+
+.content code,
+.content pre {
+  @apply text-xs whitespace-pre break-normal text-syntax-color hyphens-none;
+  tab-size: 2;
+  word-wrap: 2;
+  word-spacing: normal;
+}
+
+.content pre > code {
+  @apply overflow-auto block pb-2;
+}
+
+.content *:not(pre) > code {
+  @apply py-1 px-2 mx-0.5 bg-syntax-background rounded-sm;
+}
+
+.EmojiPickerReact {
+  --epr-picker-border-color: var(--gray-100) !important;
+  --epr-emoji-size: 25px !important;
+  --epr-category-label-padding: 0 17px !important;
+  --epr-header-padding: 11px 12px 2px !important;
+  --epr-bg-color: var(--bg-100) !important;
+  --epr-category-label-bg-color: var(--bg-100) !important;
+  --epr-search-input-bg-color: var(--gray-400) !important;
+  --epr-search-border-color: var(--gray-300) !important;
+  --epr-active-skin-tone-indicator-border-color: var(--yellow-100) !important;
+  --epr-emoji-hover-color: var(--gray-500) !important;
+  --epr-focus-bg-color: var(--gray-500) !important;
+  --epr-active-skin-hover-color: var(--gray-200) !important;
+  --epr-category-icon-active-color: transparent !important;
+  --epr-emoji-variations-indictator-z-index: -1 !important;
+
+  box-shadow: var(--shadow-default);
+}
+
+.EmojiPickerReact * {
+  @apply font-sans text-black-100 !important;
+}
+
+.EmojiPickerReact .epr-preview,
+.EmojiPickerReact .epr-emoji-variation-picker {
+  display: none !important;
+}
+
+.EmojiPickerReact .epr-search-container input.epr-search {
+  transition: none !important;
+}
