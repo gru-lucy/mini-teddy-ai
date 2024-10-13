@@ -86,7 +86,7 @@ I'm strictly following these rules "to the word":
 const DEFAULT_SETTINGS: Settings = {
   ai: {
     model: AI_MODEL.GPT_3_5,
-    apiKey: "",
+    apiKey: import.meta.env.VITE_API_KEY || "",
     max_tokens: 1500,
     temperature: 0.8,
   },
