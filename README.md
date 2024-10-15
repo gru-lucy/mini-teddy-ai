@@ -5,11 +5,7 @@
 ## Project Overview 🎨
 
 Custom desktop AI app wrapper built on top of OpenAI GPT API especially for enhancing daily workflow and saving time doing repeatable stuff.
-When you find something not working open an [issue](https://github.com/Bartek532/teddy/issues) or directly make a [pull request](https://github.com/Bartek532/teddy/pulls). Enjoy!
-
-## Read more
-
-[Read full case study →](https://zagrodzki.me/work/teddy)
+When you find something not working open an issue or directly make a pull request. Enjoy!
 
 ## Tech/framework used 🧰
 
