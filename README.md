@@ -1,9 +1,6 @@
-<h1 align="center">
-<img src="https://zagrodzki.me/_next/image?url=%2Fimg%2Fprojects%2Fteddy%2Fthumbnail.png&w=3840&q=75" alt="app logo" width="100%"/>
+![UI](https://zagrodzki.me/_next/image?url=%2Fimg%2Fprojects%2Fteddy%2Fthumbnail.png&w=3840&q=75)
 
-</h1>
-
-<h4 align="center">Teddy - personalizable AI assistant</h4>
+# Teddy - personalizable AI assistant
 
 ## Project Overview 🎨
 
@@ -34,7 +31,7 @@ When you find something not working open an [issue](https://github.com/Bartek532
 
 ```bash
 
-git clone https://github.com/Bartek532/teddy.git
+git clone https://github.com/gru-lucy/mini-teddy-ai.git
 
 pnpm install
 
